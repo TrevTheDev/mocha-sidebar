@@ -2,7 +2,7 @@
     "name": "vscode-mocha-sidebar",
     "displayName": "Mocha sidebar",
     "description": "Mocha side bar is the most complete extension for mocha testing, based on not maintained mocha extension , have fun :)",
-    "version": "0.22.2",
+    "version": "0.22.3",
     "publisher": "maty",
     "engines": {
         "vscode": "^0.10.1"
@@ -359,20 +359,18 @@
         }
     },
     "devDependencies": {
-        "eslint": "^5.16.0",
-        "vscode": "0.11.x"
+        "vscode": "^1.1.36"
     },
     "dependencies": {
-        "async": "^2.6.1",
-        "await-done": "^1.0.1",
+        "async": "^3.2.0",
         "babel-register": "^6.26.0",
         "babylon": "^6.13.1",
-        "bluebird": "^3.5.2",
         "clone": "^2.1.2",
         "escape-regexp": "0.0.1",
-        "escape-string-regexp": "^1.0.5",
+        "escape-string-regexp": "^2.0.0",
+        "eslint": "^6.8.0",
         "get-installed-path": "^4.0.8",
-        "glob": "^7.0.3",
+        "glob": "^7.1.6",
         "lcov-parse": "^1.0.0",
         "line-number": "^0.1.0",
         "lodash.assign": "^4.2.0",
@@ -380,11 +378,11 @@
         "lodash.forin": "^4.4.0",
         "lodash.isobject": "^3.0.2",
         "lodash.remove": "^4.7.0",
-        "mocha": "^5.2.0",
-        "npm": "^6.9.0",
-        "nyc": "^11.7.3",
-        "rimraf": "^2.6.2",
-        "split-lines": "^1.1.0",
-        "stacktrace-parser": "^0.1.4"
+        "mocha": "^7.1.1",
+        "npm": "^6.14.4",
+        "nyc": "^15.0.1",
+        "rimraf": "^3.0.2",
+        "split-lines": "^2.0.0",
+        "stacktrace-parser": "^0.1.9"
     }
 }
